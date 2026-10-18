@@ -7,7 +7,7 @@ Data and images are stored in MongoDB Atlas.
 
 ## Live Links
 - Website (Vercel): (add after Step 52)
-- API (Render): (add after Step 41)
+- API (Render): https://showcase-gallery-p7vp.onrender.com
 
 ## Tech Stack
 MongoDB Atlas · Express.js · React (Vite) · Node.js
