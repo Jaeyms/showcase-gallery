@@ -76,7 +76,7 @@ function App() {
       )}
 
       <footer className="py-10 text-center text-sm text-slate-400">
-        Made by Carl James Lacad · BS Information Technology
+        Made by Carl James Lacad · BSIT INF 233
       </footer>
     </div>
   );

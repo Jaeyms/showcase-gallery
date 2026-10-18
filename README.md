@@ -3,10 +3,10 @@
 A product gallery website with image upload.
 Data and images are stored in MongoDB Atlas.
 
-**Student:** Carl James Lacad - BS Information Technology
+**Student:** Carl James Lacad - BSIT INF 233
 
 ## Live Links
-- Website (Vercel): (add after Step 52)
+- Website (Vercel): https://showcase-gallery-kappa.vercel.app
 - API (Render): https://showcase-gallery-p7vp.onrender.com
 
 ## Tech Stack
