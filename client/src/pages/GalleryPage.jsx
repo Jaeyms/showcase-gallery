@@ -11,7 +11,7 @@ function GalleryPage({ products, loading}) {
                 <p className="text-sm font-semibold uppercase tracking-[0.3em] text-white/70">Product Gallery</p>
                 <h2 className="mt-3 text-4xl font-bold md:text-5xl">Discover Our Products</h2>
                 <p className="mt-3 text-white/80">
-                    {products.length} items available . by [Your Name]
+                    {products.length} items available · by Carl James Lacad
                 </p>
             </section>
 
