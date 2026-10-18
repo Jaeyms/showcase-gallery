@@ -12,6 +12,11 @@ const productSchema = new mongoose.Schema(
       required: [true, "Price is required"],
       min: [0, "Price cannot be negative"],
     },
+    category: {
+      type: String,
+      default: "General",
+      trim: true,
+    },
     description: {
       type: String,
       default: "",

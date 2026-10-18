@@ -21,8 +21,8 @@ export const getProduct = async (req, res) => {
 
 export const createProduct = async (req, res) => {
   try {
-    const { name, price, description, image } = req.body;
-    const product = await Product.create({ name, price, description, image });
+    const { name, price, category, description, image } = req.body;
+    const product = await Product.create({ name, price, category, description, image });
     res.status(201).json(product);
   } catch (error) {
     res.status(400).json({ message: error.message });
@@ -31,10 +31,10 @@ export const createProduct = async (req, res) => {
 
 export const updateProduct = async (req, res) => {
   try {
-    const { name, price, description, image } = req.body;
+    const { name, price, category, description, image } = req.body;
     const product = await Product.findByIdAndUpdate(
       req.params.id,
-      { name, price, description, image },
+      { name, price, category, description, image },
       { new: true, runValidators: true }
     );
     if (!product) return res.status(404).json({ message: "Product not found" });
